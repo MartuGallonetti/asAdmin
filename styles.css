@@ -1,0 +1,112 @@
+.banner {
+    background-image: url("./img/inicio.png");
+    height: 350px;
+    background-size: 1200px;
+}
+
+.texto-banner {
+    padding: 70px;
+}
+
+.tit1 {
+    padding-left: 50px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: inter "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.txt1 {
+    padding-inline-end: 80px;
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: inter "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contenedor-servicios {
+    background-image: url("./img/medio.png");
+    height: 890px;
+}
+
+.admin-servicios {
+    width: 20%;
+    height: 400px;
+    margin: 40px;
+    font-size: 13px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid black;
+}
+
+.txt-admin {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.contratos-servicios {
+    width: 20%;
+    height: 500px;
+    margin: 40px;
+    font-size: 13px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.reparaciones-servicios {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.contenedor-equipo {
+    height: 180px;
+    display: flex;
+}
+
+.equipo {
+    border: 3px solid #0d5193;
+    margin: 15px;
+    display: flex;
+}
+.equipo-fede {
+    border: 3px solid black;
+    background-color: #0d5193;
+    color: #ffffff;
+    margin: 15px;
+    display: flex;
+}
+.china {
+    height: 90px;
+    width: 90px;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+}
+
+.logo-contenedor {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fondo-footer {
+    background-image: url("./img/foto-pie.png");
+}
+
+.footer {
+    display: flex;
+    /* height: 350px; */
+}
+
+.footer-info {
+    display: flex;
+    justify-content: end;
+}
