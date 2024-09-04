@@ -36,37 +36,45 @@
 }
 
 .admin-servicios {
-    width: 20%;
-    height: 400px;
-    margin: 30px;
-    font-size: 13px;
+    font-size: 15px;
+    width: 23%;
+    padding: 1px 10px 5px;
+    margin-bottom: 5%;
     background-color: #ffffff;
-    justify-content: center;
-    align-items: flex-end;
     border: 1px solid black;
 }
 
 .txt-admin {
     font-size: 20px;
-    margin: 20px;
+    margin: 23px;
 }
 
 .contratos-servicios {
-    width: 20%;
-    height: 500px;
-    margin: 30px;
     font-size: 13px;
+    width: 23%;
+    padding: 1px 10px 5px;
+    margin-bottom: 5%;
     background-color: #ffffff;
-    justify-content: center;
-    align-items: center;
     border: 1px solid black;
 }
 
+.txt-contratos {
+    font-size: 20px;
+    margin: 23px;
+}
+
 .reparaciones-servicios {
+    font-size: 13px;
+    width: 23%;
+    padding: 1px 10px 5px;
+    margin-bottom: 5%;
     background-color: #ffffff;
-    justify-content: center;
-    align-items: center;
     border: 1px solid black;
+}
+
+.txt-reparaciones {
+    font-size: 20px;
+    margin: 23px;
 }
 
 .contenedor-equipo {
@@ -104,12 +112,11 @@
 }
 
 .fondo-footer {
-    background-image: url("./img/foto-pie.png");
+    background-image: url("./img/pie.png");
 }
 
 .footer {
     display: flex;
-    /* height: 350px; */
 }
 
 .footer-info {
