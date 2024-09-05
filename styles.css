@@ -1,14 +1,13 @@
 .banner {
     background-image: url("./img/inicio.png");
     height: 350px;
-    background-size: 1200px;
+    background-size: cover;
     justify-content: space-around;
 }
 
 .texto-banner {
     padding-top: 40px;
-    font-size: 10px;
-    margin-right: 100px;
+    font-size: 15px;
     color: #ffffff;
     text-align: center;
 }
@@ -32,47 +31,27 @@
 
 .contenedor-servicios {
     background-image: url("./img/medio.png");
-    height: 890px;
+    background-size: cover;
+    min-height: 890px;
+    display: flex;
 }
 
-.admin-servicios {
-    font-size: 15px;
-    width: 23%;
-    padding: 1px 10px 5px;
-    margin-bottom: 5%;
-    background-color: #ffffff;
-    border: 1px solid black;
-}
-
-.txt-admin {
-    font-size: 20px;
-    margin: 23px;
-}
-
-.contratos-servicios {
-    font-size: 13px;
-    width: 23%;
-    padding: 1px 10px 5px;
-    margin-bottom: 5%;
-    background-color: #ffffff;
-    border: 1px solid black;
-}
-
-.txt-contratos {
-    font-size: 20px;
-    margin: 23px;
-}
-
+.admin-servicios,
+.contratos-servicios,
 .reparaciones-servicios {
-    font-size: 13px;
-    width: 23%;
+    font-size: 14px;
+    min-width: 23%;
     padding: 1px 10px 5px;
-    margin-bottom: 5%;
     background-color: #ffffff;
     border: 1px solid black;
+    flex: 1;
+    margin: 5%;
+    max-height: 95%;
 }
 
-.txt-reparaciones {
+.txt-admin,
+.txt-reparaciones,
+.txt-contratos {
     font-size: 20px;
     margin: 23px;
 }
@@ -80,6 +59,10 @@
 .contenedor-equipo {
     height: 180px;
     display: flex;
+}
+
+.fondo-footer {
+    background-image: url("./img/pie.png");
 }
 
 .equipo {
@@ -94,7 +77,7 @@
     margin: 15px;
     display: flex;
 }
-.china {
+/* .china {
     height: 90px;
     width: 90px;
 }
@@ -102,24 +85,20 @@
 .logo {
     height: 150px;
     width: auto;
-}
+} */
 
-.logo-contenedor {
+/* .logo-contenedor {
     width: 40%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
-}
+} */
 
-.fondo-footer {
-    background-image: url("./img/pie.png");
-}
-
-.footer {
+/* .footer {
     display: flex;
 }
 
 .footer-info {
     display: flex;
     justify-content: end;
-}
+} */
