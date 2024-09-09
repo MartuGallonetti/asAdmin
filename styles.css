@@ -67,9 +67,20 @@
 
 .equipo {
     border: 3px solid #0d5193;
-    margin: 15px;
+    margin: 20px;
     display: flex;
 }
+
+.equipo-txt {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.nombres-footer {
+    margin-top: 10px;
+}
+
 .equipo-fede {
     border: 3px solid black;
     background-color: #0d5193;
@@ -77,28 +88,30 @@
     margin: 15px;
     display: flex;
 }
-/* .china {
-    height: 90px;
-    width: 90px;
+.retratos {
+    height: 80%;
+    width: 100%;
+    margin-top: 10px;
 }
 
 .logo {
     height: 150px;
     width: auto;
-} */
+}
 
-/* .logo-contenedor {
+.logo-contenedor {
     width: 40%;
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
-} */
+    margin-top: 90px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
 
-/* .footer {
+.footer {
     display: flex;
 }
 
 .footer-info {
-    display: flex;
-    justify-content: end;
-} */
+    margin-top: 10%;
+    font-size: 20px;
+}
