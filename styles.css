@@ -2,15 +2,19 @@
     position: relative;
 }
 
+/* Banner, titulo y texto bienvenida */
 .banner {
     background-image: url("./img/inicio.png");
     height: 350px;
     background-size: cover;
     justify-content: space-around;
+    padding: 20px 0;
 }
 
 .texto-banner {
     padding-top: 40px;
+    margin-bottom: 50px;
+    margin-right: 100px;
     font-size: 15px;
     color: #ffffff;
     text-align: center;
@@ -18,7 +22,6 @@
 
 .texto-banner-2 {
     font-size: 20px;
-    margin: 30px;
 }
 
 .tit-1 {
@@ -27,19 +30,14 @@
     font-size: 20px;
 }
 
-.banner {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-}
-
 .txt-1 {
     padding-right: 300px;
     margin-left: 50px;
     font-size: 18px;
     max-width: 80%;
 }
+
+/* servicios, titulos, textos y fondo */
 
 .contenedor-servicios {
     background-image: url("./img/medio.png");
@@ -68,20 +66,37 @@
     margin: 23px;
 }
 
-.fondo-footer {
-    background-image: url("./img/pie.png");
+/* Textos cards */
+
+.text-body-secondary {
+    color: #ffffff !;
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
 }
 
-.nombres-footer {
-    margin-top: 10px;
+.card-body {
+    text-align: center;
+    font-size: 15px;
 }
+
 .equipo {
     gap: 20px;
 }
 
 .fede {
     color: #ffffff !important;
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
 }
+
+/* Footer */
+
+.fondo-footer {
+    background-image: url("./img/pie.png");
+}
+
 .logo {
     height: 150px;
     width: auto;
@@ -90,30 +105,13 @@
 .logo-contenedor {
     width: 40%;
     display: flex;
-    margin-top: 90px;
+    margin-top: 43px;
     margin-bottom: 20px;
     justify-content: space-around;
 }
-.text-body-secondary {
-    color: #ffffff !;
-}
-.footer {
-    display: flex;
-}
-
-.footer-info {
-    margin-top: 10%;
-    font-size: 20px;
-}
-@media (max-width: 767px) {
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
 
 /* Banner */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .banner {
         height: auto;
         padding: 30px 0;
@@ -126,7 +124,7 @@
     .texto-banner h2 {
         font-size: 24px;
     }
-}
+} */
 
 /* Sección de bienvenida */
 @media (max-width: 767px) {
@@ -160,7 +158,7 @@
     .contratos-servicios,
     .reparaciones-servicios {
         width: 100%;
-        margin: 10px 0;
+        margin: 0px 0;
         max-height: none;
         background-image: url("./img/medio.png");
         color: #ffffff;
@@ -197,7 +195,7 @@
 
     .logo-contenedor {
         width: 100%;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .footer-info {
@@ -205,6 +203,23 @@
         font-size: 16px;
     }
 }
+
+.footer {
+    display: flex;
+}
+
+.footer-info {
+    margin-top: 70px;
+    font-size: 20px;
+}
+@media (max-width: 767px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Formulario */
 
 .contact-form {
     position: absolute;
@@ -274,9 +289,10 @@ select option {
     position: relative;
     margin: 0 auto;
 }
+
 @media (max-width: 1024px) {
     .content-wrapper {
-        padding-right: 20px;
+        padding-right: 10px;
     }
 
     .txt-1,
