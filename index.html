@@ -14,6 +14,7 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         />
         <link rel="stylesheet" href="./styles.css" />
+        <script defer src="./enviarCorreo.js"></script>
         <link rel="shortcut icon" href="./img/log.jfif" />
         <title>AS Administración</title>
     </head>
@@ -58,26 +59,30 @@
                     </section>
                     <div class="contact-form">
                         <h4>Contacto</h4>
-                        <form>
+                        <form id="formulario">
                             <input
+                                id="nombre"
                                 type="text"
                                 name="name"
                                 placeholder="Nombre y Apellido"
                                 required
                             />
                             <input
+                                id="email"
                                 type="text"
                                 name="email"
                                 placeholder="E-mail"
                                 required
                             />
                             <input
+                                id="telefono"
                                 type="tel"
                                 name="phone"
                                 placeholder="Teléfono"
                                 required
                             />
                             <select
+                                id="propiedad"
                                 name="propiedad"
                                 placeholder="Tipo de Inmueble"
                                 required
@@ -91,14 +96,15 @@
                                 </option>
                                 <option value="local">Local</option>
                                 <option value="oficina">Oficina</option>
-                                <option value="terreno">Terreno</option>
+                                <option value="galpon">Galpón</option>
                             </select>
                             <textarea
+                                id="mensaje"
                                 name="message"
                                 placeholder="Comentarios"
                                 required
                             ></textarea>
-                            <button type="submit">ENVIAR</button>
+                            <button id="enviar" type="submit">ENVIAR</button>
                         </form>
                     </div>
                     <section class="contenedor-servicios">
@@ -107,7 +113,7 @@
                         >
                             <div class="admin-servicios col-md-6">
                                 <i class="fa-solid fa-gear card-icon fa-4x"></i>
-                                <h4 class="txt-admin">Administracion</h4>
+                                <h4 class="txt-admin">Administración</h4>
                                 <ul>
                                     <li>
                                         Nos ocupamos del cobro, pago, control, y
@@ -117,12 +123,12 @@
                                         acordado por contrato.
                                     </li>
                                     <li>
-                                        Realizamos desde la Administración el
+                                        Realizamos desde la dministración el
                                         cobro, pago, control de servicios,
                                         expensas e impuestos.
                                     </li>
                                     <li>
-                                        Podemos realizar la liquidaciones de
+                                        Podemos realizar las liquidaciones de
                                         alquileres, en el caso de condominios,
                                         en forma individual (y porcentual) para
                                         cada uno de sus integrantes, emitiendo
@@ -353,6 +359,19 @@
                     </div>
                 </section>
             </footer>
+        </div>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+        <!-- JavaScript -->
+        <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+        <div id="modalAgradecimiento" class="modal">
+            <div class="modal-content">
+                <img
+                    src="./img/ultima-pagina.png"
+                    alt="Gracias por su contacto"
+                    style="width: 100%"
+                />
+            </div>
         </div>
     </body>
 </html>
