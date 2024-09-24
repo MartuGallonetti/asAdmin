@@ -1,5 +1,5 @@
 //inicializamos el servicio de emailjs
-emailjs.init("pvDY7rIDJypYZqU6H");
+emailjs.init("g1jjSZzVEwYuBKOS-");
 
 //Funcion que valida si el email tiene el formato correcto
 const validarEmail = (email) => {
@@ -35,12 +35,13 @@ const enviarCorreo = () => {
 
     // Ponemos los datos del correo a enviar
     const data = {
-        to: `${emailUsuario.value}`,
-        from: "mgallonetti03@gmail.com",
+        to: `mgallonetti03@gmail.com`,
+        from: "info.contacto.as@gmail.com",
         subject: "Contacto As administraciones",
         text: `
         Nombre: ${nombre.value}
         telefono: ${telefono.value}
+        email: ${emailUsuario.value}
         propiedad: ${propiedad.value}
         mensaje: ${mensaje.value}
         `,
@@ -48,7 +49,7 @@ const enviarCorreo = () => {
 
     // Enviamos el correo con la librería emailjs
     emailjs
-        .send("service_lt5barc", "template_javeiqu", data)
+        .send("service_9uxrrac", "template_ry2eh2m", data)
         .then((response) => {
             console.log("Correo enviado:", response);
             alertify.success(
