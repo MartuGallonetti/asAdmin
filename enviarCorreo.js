@@ -38,12 +38,12 @@ const enviarCorreo = () => {
         to: `mgallonetti03@gmail.com`,
         from: "info.contacto.as@gmail.com",
         subject: "Contacto As administraciones",
-        text: `
+        message: `
         Nombre: ${nombre.value}
-        telefono: ${telefono.value}
-        email: ${emailUsuario.value}
-        propiedad: ${propiedad.value}
-        mensaje: ${mensaje.value}
+        Telefono: ${telefono.value}
+        Email: ${emailUsuario.value}
+        Propiedad: ${propiedad.value}
+        Mensaje: ${mensaje.value}
         `,
     };
 
