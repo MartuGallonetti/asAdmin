@@ -35,7 +35,7 @@ const enviarCorreo = () => {
 
     // Ponemos los datos del correo a enviar
     const data = {
-        to: `mgallonetti03@gmail.com`,
+        to: `contratos@asadministraciones.com.ar`,
         from: "info.contacto.as@gmail.com",
         subject: "Contacto As administraciones",
         message: `
